@@ -20,7 +20,7 @@ function Select({ options, value, onChange, ...props }) {
       {options.map((option) => {
         return (
           <option key={option.value} value={option.value}>
-            {option.lable}
+            {option.label}
           </option>
         );
       })}
